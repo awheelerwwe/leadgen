@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import io
 
-API_KEY = "ed13d0ad7ec4ccd96d27d32ba7fd21477fe42ec629a4373d59cde2770b8e9e94"
+API_KEY = 
 
 def serpapi_search(query):
     params = {
