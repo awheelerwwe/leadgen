@@ -3,8 +3,10 @@ import requests
 import pandas as pd
 import time
 import io
+import streamlit as st
 
-API_KEY = 
+API_KEY = st.secrets["SERPAPI_KEY"]
+
 
 def serpapi_search(query):
     params = {
